@@ -29,7 +29,7 @@ define( 'DB_USER', 'wordpressuser' );
 define( 'DB_PASSWORD', 'stackinc' );
 
 /** Database hostname */
-define( 'DB_HOST', 'wordpressinstanceb.czbodzmwgczf.us-east-1.rds.amazonaws.com' );
+define( 'DB_HOST', 'wordpressinstance.czbodzmwgczf.us-east-1.rds.amazonaws.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'zW}+?^0S}154WmA-pbQ&oRmG=fHL?c{iwjFo<=?f?L+B^W~bEF3[givAGOGFYA-f');
-define('SECURE_AUTH_KEY',  '`Sn}V;PScu@]$WBG,t!,o:r,&`#PxG+q@)L(V kV(zd6J^#GvPKx-0Bcg}!mq8|E');
-define('LOGGED_IN_KEY',    '-(g|:vdjn!MFmg(/8UX H*yv|m~J#K]{juWdEFakvI) ^D^`P%2K1jMNJp7%|U0A');
-define('NONCE_KEY',        '~w)cU-Y~JKk)S1*OmY! :4mjw?<;-py]SpomgFTJ@ofKU<9YpX+WS,A&0W-G)qn_');
-define('AUTH_SALT',        '![;&*QQJIB8H}LTvWm84n|%>[YR_pF8j@N|^RKJ^w$x?+;7A7Kax _W[Vy@7)<,(');
-define('SECURE_AUTH_SALT', 'NQ&ELW6K9up+K1UoIF*=Loh@xs4Z-I#`ga]/cn,g8:d,UbE|?^|b8F#[aAcwr?0,');
-define('LOGGED_IN_SALT',   'pI@P593B$&77#E:Y+oG!nhRbs2K8h,Cg,+]lH`cW#?n|^%4r|^IbY9j9;?>-:i!j');
-define('NONCE_SALT',       '1<>yqG3R]qX[/<# ^V?)F9-G?e/vc91;J[!C9v}Sdi4Hd3G8YRI;r+[T>/2i{Aq:');
+define('AUTH_KEY',         ',oic+;u EgUsV-Mh^keA<!S~gKO+*S_1yK]ix3~Z!Wkz0UX2OG+yq_v62Kl<vY<K');
+define('SECURE_AUTH_KEY',  'N?=RSi{}`l|>m[|^bFj38,U=o;OXqzy*0?gm7sYD+;l-tRnr1{b5Z%wy7H<IvN{v');
+define('LOGGED_IN_KEY',    '@&7]*59f=H`0I/N 9w%`-Aqz}5||>LJV]:_PRC]G>UkZhnS<S:x1K8TpoOy/qTds');
+define('NONCE_KEY',        '>Rf,vyr`h4|_cN|]-)MO+r2X&b_&qp/6 yrRGmwmInmN1?V#3KLEC:24|,mz,EJZ');
+define('AUTH_SALT',        '~Kt+pc{pVgt6GN*y0oVl}MD)u`%T3Y-P{sp#99/(<D+)x;%[|mu)D[zxljaLny~+');
+define('SECURE_AUTH_SALT', 'rh_8IAW}/5+}uS=6uvZ|@dAA<T6FW&)-jb(MiV#8<Vj1;Sv0tm<WW@[#>*E#A-Pd');
+define('LOGGED_IN_SALT',   '<<D>ALO&T8*lIoa{[d^6!xMpWhcQLn{_5_.:+wo~o7O.-Fht5u*HAg:n]1+:573.');
+define('NONCE_SALT',       'G>MMj V5gj^{>y+k6r9]#OF~j+=;[z#j XfTW]>z#H(wrln#l|=Vx>j<st#c:Dr;');
 /**#@-*/
 
 /**
@@ -82,7 +82,8 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-define('FS_METHOD','direct');
+
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
